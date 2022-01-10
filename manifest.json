@@ -1,0 +1,16 @@
+{
+    "name": "ReNews",
+    "description": "Fake News or Not? Real See.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "background": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "activeTab"], 
+    "action": {
+        "default_popup": "popup.html", 
+        "default_icon" : {
+            "48":"/logo.png"
+        }
+    }
+  }
